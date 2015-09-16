@@ -115,6 +115,7 @@ You may constrain the format of your route parameters using the `where` method o
     })
     ->where(['id' => '[0-9]+', 'name' => '[a-z]+']);
 
+When a route fails to pass constraint, it will not proceed further.
 <a name="parameters-global-constraints"></a>
 #### Global Constraints
 
